@@ -3,19 +3,17 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/rea
 const ItemsPage: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>ItemsPage</IonTitle>
-        </IonToolbar>
-      </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">ItemsPage</IonTitle>
-          </IonToolbar>
-        </IonHeader>
+    <IonHeader className="ion-no-border">
+      <IonToolbar>
+        <IonTitle>Items</IonTitle>
+      </IonToolbar>
+    </IonHeader>
+    <IonContent>
+      <IonContent className="ion-padding">
+     
       </IonContent>
-    </IonPage>
+    </IonContent>
+  </IonPage>
   );
 };
 
