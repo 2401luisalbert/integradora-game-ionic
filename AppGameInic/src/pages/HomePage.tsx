@@ -18,7 +18,7 @@ const HomePage: React.FC = () => {
           <IonTitle>Space Defender</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent>
+
         <IonContent className="ion-padding">
           <IonHeaderComponent />
           <h2 className="ion-margin-vertical ion-padding-vertical">Mundos</h2>
@@ -51,7 +51,7 @@ const HomePage: React.FC = () => {
             ></iframe>
           </div>
         </IonContent>
-      </IonContent>
+ 
     </IonPage>
   );
 };

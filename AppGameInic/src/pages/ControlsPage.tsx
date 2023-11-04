@@ -1,20 +1,22 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-
+import {
+  IonContent,
+  IonHeader,
+  IonPage,
+  IonTitle,
+  IonToolbar,
+} from "@ionic/react";
 
 const ControlsPage: React.FC = () => {
   return (
     <IonPage>
-    <IonHeader className="ion-no-border">
-      <IonToolbar>
-        <IonTitle>Controls</IonTitle>
-      </IonToolbar>
-    </IonHeader>
-    <IonContent>
-      <IonContent className="ion-padding">
-     
-      </IonContent>
-    </IonContent>
-  </IonPage>
+      <IonHeader className="ion-no-border">
+        <IonToolbar>
+          <IonTitle>Controls</IonTitle>
+        </IonToolbar>
+      </IonHeader>
+
+      <IonContent className="ion-padding"></IonContent>
+    </IonPage>
   );
 };
 

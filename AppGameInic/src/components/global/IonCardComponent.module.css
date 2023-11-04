@@ -1,6 +1,14 @@
-.card-with-background {
-    background-image: url('../assets/tu-imagen-de-fondo.jpg');
-    background-size: cover; 
-    background-position: center; /* Centra la imagen en la tarjeta */
-    color: #fff; /* Color del texto en la tarjeta */
-  }
+.IonCard{
+  min-height: 240px;
+}
+
+.overlayStyle {
+  min-height: 240px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ionCardContent{
+  position: fixed;
+  bottom: 1px;
+}
+
