@@ -19,13 +19,14 @@ const IonCardComponent: React.FC<ICard> = ({
     backgroundPosition: "center",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
-    backgroundColor: "transparent",
+    backgroundColor: "black",
     color: "#fff",
     width: "100%",
     margin: "1px",
-    marginTop: "1px",
-    boxShadow: "0 0 5px 1px #48abe0",
+    marginTop: "20px",
+    boxShadow: "0 0 5px 1px #283747",
     borderRadius: "15px",
+    border:"2px solid black"
   };
 
   const openModal = () => {

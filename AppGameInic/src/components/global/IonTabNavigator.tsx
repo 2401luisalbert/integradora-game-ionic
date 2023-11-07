@@ -1,3 +1,4 @@
+import React from "react";
 import {
   IonTabs,
   IonTabBar,
@@ -17,6 +18,7 @@ import HomePage from "../../pages/HomePage";
 import CharacterPage from "../../pages/CharacterPage";
 import ItemsPage from "../../pages/ItemsPage";
 import ControlsPage from "../../pages/ControlsPage";
+import styles from "./IonTabNavigator.module.css"; // Importa tus estilos CSS
 
 const IonTabNavigator: React.FC = () => {
   return (
@@ -33,23 +35,23 @@ const IonTabNavigator: React.FC = () => {
         <Route path="/controls" render={() => <ControlsPage />} exact={true} />
       </IonRouterOutlet>
 
-      <IonTabBar slot="bottom">
-        <IonTabButton tab="home" href="/home">
+      <IonTabBar slot="bottom" className={styles["tab-bar"]}>
+        <IonTabButton className={styles["tab-button"]} tab="home" href="/home">
           <IonIcon icon={homeOutline} />
           <IonLabel>Inicio</IonLabel>
         </IonTabButton>
 
-        <IonTabButton tab="characters" href="/characters">
+        <IonTabButton className={styles["tab-button"]} tab="characters" href="/characters">
           <IonIcon icon={skullOutline} />
           <IonLabel>Personajes</IonLabel>
         </IonTabButton>
 
-        <IonTabButton tab="items" href="/items">
+        <IonTabButton className={styles["tab-button"]} tab="items" href="/items">
           <IonIcon icon={diamondOutline} />
           <IonLabel>Items</IonLabel>
         </IonTabButton>
 
-        <IonTabButton tab="controls" href="/controls">
+        <IonTabButton className={styles["tab-button"]} tab="controls" href="/controls">
           <IonIcon icon={gameControllerOutline} />
           <IonLabel>Controles</IonLabel>
         </IonTabButton>

@@ -41,7 +41,7 @@ const CharacterPage: React.FC = () => {
         <IonGrid>
           <IonRow>
           {dataCharacters.map((character) => (
-              <IonCol size="6"  key={character.id}>
+              <IonCol style={{marginBottom: "-20px"}} size="6"  key={character.id}>
                 <IonCardComponent
                   imageURL={character.imageURL}
                   descriptionModal={character.descriptionModal}

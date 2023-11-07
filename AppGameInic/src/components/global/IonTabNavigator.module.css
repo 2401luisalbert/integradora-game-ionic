@@ -1,0 +1,12 @@
+/* IonTabNavigator.module.css */
+.tab-bar {
+    background-color: transparent;
+    border-color: transparent;
+    margin: 5px;
+  }
+  
+  .tab-button {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  

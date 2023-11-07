@@ -30,7 +30,7 @@ const HomePage: React.FC = () => {
               que revelan sus estrategias de reproducción y disquetes con datos
               críticos sobre la comunicación de los extraterrestres.
             </p>
-            <div>
+            <div >
               {dataHomeWorlds.map((world) => (
                 <IonCardComponent
                   imageURL={world.imageURL}
