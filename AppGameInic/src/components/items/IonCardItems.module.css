@@ -1,14 +1,19 @@
 .card {
-  border: 1px solid #6d6d6d;
+  border: 2px solid black;
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+  box-shadow: 0 0 5px 1px #283747;
   margin: 10px;
   align-items: center;
   justify-content: center;
   transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
   height: 200px;
   margin: 1rem 0;
+}
+
+Ion-Modal{
+  background-color: black;
 }
 
 .header__card {

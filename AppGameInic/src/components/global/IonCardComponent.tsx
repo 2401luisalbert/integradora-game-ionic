@@ -19,7 +19,7 @@ const IonCardComponent: React.FC<ICard> = ({
     backgroundPosition: "center",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
-    backgroundColor: "black",
+    backgroundColor: "transparent",
     color: "#fff",
     width: "100%",
     margin: "1px",
