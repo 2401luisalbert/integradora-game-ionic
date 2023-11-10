@@ -26,7 +26,7 @@ const ControlsPage: React.FC = () => {
             <p>
               Teclas
               <IonText color="tertiary">
-                <b> W, A, S y D</b>
+                <b> W, A, S y D </b>
               </IonText>
               Utiliza estas teclas para mover a Nick Parker por los escenarios
               de la Luna, Marte y la estación espacial. Explora con facilidad
@@ -34,7 +34,7 @@ const ControlsPage: React.FC = () => {
             </p>
             <p>
               <IonText color="tertiary">
-                <b>Barra Espaciadora</b>
+                <b>Barra Espaciadora </b>
               </IonText>
               Utiliza la barra espaciadora para que Nick salte en situaciones
               que lo requieran.
