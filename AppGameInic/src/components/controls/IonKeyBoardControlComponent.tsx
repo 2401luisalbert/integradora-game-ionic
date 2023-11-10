@@ -2,7 +2,7 @@ import styles from "./IonKeyBoardControlComponent.module.css";
 
 const IonKeyBoardControlComponent = () => {
     return (
-        <div data-aos="fade-right" className={styles.grid}>
+        <div className={styles.grid}>
           <h1  className={styles.title}>Controles de teclado</h1>
           <div className={styles.keyboard}>
             <ul className={styles.row}>

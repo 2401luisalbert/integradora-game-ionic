@@ -4,7 +4,7 @@ import styles from "./IonMouseControlComponent.module.css";
 const IonMouseControlComponent = () => {
   return (
     <div className={styles.container}>
-      <div data-aos="fade-up" className={styles.grid}>
+      <div  className={styles.grid}>
         <figure className={styles.figure}>
           <img
             src="/src/assets/images/clic-mouse.webp"
@@ -25,7 +25,7 @@ const IonMouseControlComponent = () => {
           </p>
         </div>
       </div>
-      <div data-aos="fade-up" className={styles.grid}>
+      <div className={styles.grid}>
         <figure className={styles.figure}>
           <img
             src="/src/assets/images/mouse-move.webp"

@@ -19,10 +19,12 @@ Ion-Modal{
 .header__card {
   height: 100%;
   text-align: center;
+  margin: -1rem 0;
 }
 
 .img__card {
   height: 80%;
+  animation: buzzAnimation 2s ease infinite;
 }
 
 .card:hover {
@@ -48,5 +50,14 @@ Ion-Modal{
     box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
     border-radius: 1rem;
     overflow: hidden;
+}
+
+@keyframes buzzAnimation {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
 }
 

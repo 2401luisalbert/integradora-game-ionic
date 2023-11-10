@@ -1,6 +1,6 @@
 .IonCard{
   min-height: 240px;
-  
+  animation: buzzAnimation 3s linear infinite;
 }
 
 .overlayStyle {
@@ -13,3 +13,12 @@
   bottom: 1px;
 }
 
+
+@keyframes buzzAnimation {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+}

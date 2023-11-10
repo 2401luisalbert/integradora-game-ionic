@@ -303,3 +303,16 @@ p{
     transform: translateY(-500px);
   }
 }
+
+ion-button {
+  animation: buzzAnimation 0.5s linear infinite;
+}
+
+@keyframes buzzAnimation {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+}

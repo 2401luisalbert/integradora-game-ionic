@@ -38,7 +38,7 @@ const IonHeaderComponent: React.FC = () => {
                 onDidDismiss={() => setPopoverOpen(false)}
                 alignment="center"
               >
-                <IonContent class="ion-padding">Genial! vamos a allá</IonContent>
+                <IonContent class="ion-padding">¡Genial! vamos a allá</IonContent>
               </IonPopover>
             </div>
           </div>

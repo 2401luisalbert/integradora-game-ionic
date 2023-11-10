@@ -9,7 +9,7 @@ import {
 import IonKeyBoardControlComponent from "../components/controls/IonKeyBoardControlComponent";
 import IonMouseControlComponent from "../components/controls/IonMouseControlComponent";
 import IonESRBComponent from "../components/global/IonESRBComponent";
-
+import styles from './Controls.module.css'
 
 const ControlsPage: React.FC = () => {
   return (
@@ -22,7 +22,7 @@ const ControlsPage: React.FC = () => {
 
       <IonContent className="ion-padding">
             <IonKeyBoardControlComponent />
-          <div data-aos="fade-right">
+          <div>
             <p>
               Teclas
               <IonText color="tertiary">
@@ -40,7 +40,7 @@ const ControlsPage: React.FC = () => {
               que lo requieran.
             </p>
           </div>
-        <h1>Controles de Mouse</h1>
+        <h1 className={styles.title}>Controles de Mouse</h1>
         <IonMouseControlComponent />
           <IonESRBComponent/>
       </IonContent>
