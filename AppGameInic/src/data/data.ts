@@ -1,4 +1,5 @@
 import { ICard } from "../interfaces/ICard";
+import { ICardItems } from "../interfaces/ICardItems";
 
 export const dataHomeWorlds: ICard[] = [
     {
@@ -52,4 +53,26 @@ export const dataCharacters: ICard[] = [
         imageFull: "/src/assets/images/X1-SC4R-Full.png",
         descriptionModal:"X1-SC4R es un robot renegado que una vez se utilizó en investigaciones de posibles señales de vida alienígena en la estación espacial. Sin embargo, una falla en su programación lo llevó a rebelarse contra sus creadores. Ahora, X1-SC4R representa un obstáculo para Nick Parker mientras busca descubrir y documentar evidencia de vida alienígena en la estación espacial abandonada."
     }
+]
+
+export const dataItems: ICardItems[] = [
+    {
+        id: "1",
+        title: "Esferas Bioluminiscentes",
+        imageURL: "/src/assets/images/Esfera.webp",
+        description:"Estas esferas misteriosas emiten una luz tenue y bioluminiscente que ilumina las zonas más oscuras de la Luna. Las Esferas Bioluminiscentes son cruciales para explorar con seguridad y descubrir pistas cruciales sobre la invasión alienígena en curso.        "
+       
+    },
+    {
+        id: "2",
+        title: "Huevos Alienígenas",
+        imageURL: "/src/assets/images/Huevo.webp",
+        description:"Los huevos alienígenas son pruebas de la reproducción de las criaturas invasoras que se encuentran en Marte. Al recolectarlos, los jugadores pueden descifrar cómo se están propagando los alienígenas y cuál podría ser la amenaza completa que representan. Los huevos son pistas vitales para comprender la biología y la estrategia de los extraterrestres."
+    },
+    {
+        id: "3",
+        title: "Disquete Alienígena",
+        imageURL: "/src/assets/images/discket.webp",
+        description:"Este disquete contiene información vital sobre la existencia de seres extraterrestres y detalles reveladores sobre la invasión alienígena en curso. Proteger y recuperar el Disquete de Datos Alienígenas es fundamental para avanzar en la historia y cumplir con la misión de Nick Parker."
+    },
 ]

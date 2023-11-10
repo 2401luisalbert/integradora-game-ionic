@@ -11,18 +11,14 @@
     align-items: center;
     justify-content: center;
     border-radius: 15px;
-    padding: 1rem;
-
   }
   
   /* Estilo para el contenido dentro del .hero */
   .hero_content {
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100%;
+    padding: 1rem;
   }
   
   /* Estilo para el contenido de la izquierda dentro de .hero_content */

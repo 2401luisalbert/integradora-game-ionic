@@ -22,8 +22,8 @@ const IonHeaderComponent: React.FC = () => {
     <header className={styles.hero}>
           <div className={styles.hero_content}>
             <div className={styles.left_content}>
-              <h1 className="header_title">Space Defender</h1>
-              <p className="header_text">
+              <h1>Space Defender</h1>
+              <p>
                 <b>Space Defender</b> te sumerge en un futuro lejano, donde la
                 humanidad ha expandido su presencia por todo el sistema solar,
                 colonizando la Luna, Marte y estaciones espaciales distantes. A

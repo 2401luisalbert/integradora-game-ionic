@@ -35,7 +35,7 @@ const CharacterPage: React.FC = () => {
       </IonHeader>
 
       <IonContent className="ion-text-justify">
-        <p className="ion-padding">
+        <p className="ion-padding-start ion-padding-end ion-padding-top">
           En <IonText color="primary">"Space Defender"</IonText> te adentrarás en un emocionante viaje a través del espacio mientras asumes el papel del famoso astronauta defensor, Nick Parker. Pero eso no es todo; también te enfrentarás a enemigos alienígenas y robots renegados únicos en cada escenario.
         </p>
         <IonGrid>
